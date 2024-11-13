@@ -1,5 +1,5 @@
 variable "gateway_id" {
-  description = "ID of the gateway to attach (Transit Gateway, VPN Gateway, etc.)"
+  description = "ID of the Transit Gateway to attach"
   type        = string
 }
 
@@ -14,6 +14,6 @@ variable "subnet_ids" {
 }
 
 variable "name" {
-  description = "Name for the VPC attachment"
+  description = "Name for the Transit Gateway VPC attachment"
   type        = string
 }
